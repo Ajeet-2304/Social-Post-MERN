@@ -1,0 +1,80 @@
+.post{
+    width: 100vw;
+    height: 100vh;
+    background: crimson;
+    place-items: center;
+    padding-top: 10vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* margin: auto; */
+}
+
+form{
+    text-align: center;
+    width: 30vw;
+    height: 75vh;
+    background: lightgreen;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px 2px #000;
+}
+
+form h1{
+    padding: 1vh 0vw;
+}
+
+form label{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form label h3{
+    text-align: right;
+    margin: 1vh 1vw;
+    width: 10vw;
+    /* background: red; */
+}
+
+form img{
+    width: 25vw;
+    height: 40vh;
+    object-fit: contain;
+    /* width: fit-content; */
+    /* height: fit-content; */
+    border-radius: 15px;
+}
+
+form input[type='file']{
+    height: 5vh;
+    width: 20vw;
+    margin-top: 2vh;
+    /* background: cadetblue; */
+}
+
+form label input[type='text']{
+    height: 4vh;
+    border: 2px solid #dadada;
+    border-radius: 7.5px;
+    padding-left: 1vw;
+    outline: none;
+}
+
+form label input[type='text']:focus{
+    border: 2px solid #000;
+    background: #dadada;
+}
+
+form button{
+    width: 7.5vw;
+    height: 5vh;
+    margin-top: 2vh;
+    border-radius: 10px;
+    background: greenyellow;
+    border: 2px solid black;
+    transition: 1s transform;
+    text-transform: uppercase;
+}
+
+form button:hover{
+    transform: scale(1.05);
+}
